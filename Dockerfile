@@ -14,6 +14,12 @@ ENV APP_ENV production
 ENV APP_DEBUG true
 ENV LOG_CHANNEL stderr
 
+ENV APP_URL=https://laravel-dev-wsim.onrender.com/
+ENV DB_CONNECTION=pgsql
+ENV DB_HOST=aws-0-eu-central-1.pooler.supabase.com
+ENV DB_PORT=6543
+ENV DB_DATABASE=postgres
+
 # Allow composer to run as root
 ENV COMPOSER_ALLOW_SUPERUSER 1
 
